@@ -1,4 +1,4 @@
-# What it works ?
+# What it does and how it works ?
 
 If you want to migrate data from one redshift instance to another instance 
 may be in same or different account . 
@@ -243,11 +243,14 @@ from (SELECT
 
 ### 2) in migrate.py script fill these details before using it : 
  BACKUP_TABLES
+ 
  SOURCE DB Details
+
  DESTINATION DB details
+ 
  S3 ACCESS DETAILS
 
-### 3) Run script with command 
+### 3) Run script with command
 ```
 python migrate.py
 ```
