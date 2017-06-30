@@ -1,0 +1,7 @@
+SHELL = /bin/sh
+
+
+install:
+	sudo apt-get install python-pip libpq-dev -y
+	pip install -r requirements.txt
+	

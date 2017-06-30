@@ -1,0 +1,4 @@
+setuptools
+psycopg2==2.7
+sqlalchemy
+sqlalchemy-redshift==0.5.0
