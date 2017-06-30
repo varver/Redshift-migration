@@ -24,6 +24,7 @@ make install
 
 ```
 create schema if not admin ;
+COMMIT; 
 ```
 and then create view using sql command given below : 
 
@@ -239,6 +240,11 @@ from (SELECT
  )
 ;
 ```
+
+```
+COMMIT; 
+```
+
 ---
 
 ### 2) in migrate.py script fill these details before using it : 
